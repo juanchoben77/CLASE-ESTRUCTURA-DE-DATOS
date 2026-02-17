@@ -1,1 +1,25 @@
+public class sumapareimpar {
 
+    public static void main(String[] args) {
+        
+     int[] numeros = {1,4,3,2,25,13,7,9,10,6,32};
+
+     int sumapar = 0;
+     int sumaimpar = 0;
+
+    for(int i = 0; i < numeros.length; i++ ){
+
+         if(numeros[i] % 2 == 0){
+            sumapar += numeros[i];
+         } else 
+            sumaimpar += numeros[i];
+
+         }
+
+        System.out.println("La suma de los números pares es: " + sumapar);
+        System.out.println("La suma de los números impares es: " + sumaimpar);
+    }
+}
+
+    
+    
